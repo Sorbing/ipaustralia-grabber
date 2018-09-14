@@ -15,8 +15,7 @@ let argv = minimist(process.argv.slice(2), {
         w: 'word',
     },
     default: {
-        'chrome': '/usr/bin/google-chrome',
-        //'chrome': '/usr/bin/chromium-browser',
+        'chrome': '/usr/bin/google-chrome', // @note or use: /usr/bin/chromium-browser
     }
 });
 
@@ -25,7 +24,7 @@ let argv = minimist(process.argv.slice(2), {
 
     const browser = await puppeteer.launch({
         executablePath: argv.chrome,
-        headless: false,
+        headless: true,
         ignoreHTTPSErrors: false,
         timeout: 60000,
         args: [
