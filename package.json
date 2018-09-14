@@ -1,0 +1,15 @@
+{
+  "name": "ipaustralia-grabber",
+  "description": "Grabber from ipaustralia.gov.au",
+  "author": "Stanislav Butsenko",
+  "version": "1.0.0",
+  "main": "",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "minimist": "^1.2.0",
+    "puppeteer": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "license": "MIT"
+}

@@ -1,0 +1,18 @@
+- 25 min: Анализ формы запроса ipaustralia. Bootstrap environment (puppeteer).
+- 25+25: отправить запрос (не работал нативный функционал puppeteer перехода по ссылке)
+- 25 сохранение страниц выдачи
+- 25+25 распарсить страницы + трансформация в json
+
+
+## Example format
+```
+[{
+    "number":"124100",
+    "logo_url":"https://cdn.search.ipaustralia.gov.au/001421/medium/124100.1.jpg",
+    "name":"TESLA",
+    "classes":"9",
+    "status1":"Removed",
+    "status2":"Removed - Not Renewed",
+    "details_page_url":"https://search.ipaustralia.gov.au/trademarks/search/view/ 124100"
+}]
+```
